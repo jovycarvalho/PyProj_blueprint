@@ -1,6 +1,6 @@
 # Usage
 
-Now you can program your application inside the blueprint directory. The following command will start your application.
+Now you can program your application inside the testpiloteval directory. The following command will start your application.
 
 ```bash
 poetry run start
@@ -8,9 +8,9 @@ poetry run start
 
 The above command will run the `app` function in the `main.py` module. You can import your custom functions and hook it to the `app` function to run them.
 
-If not you can change the entry point to a different function by changing the `blueprint.main:app` configuration in the `pyproject.toml` file.
+If not you can change the entry point to a different function by changing the `testpiloteval.main:app` configuration in the `pyproject.toml` file.
 
-**To change the main module name**, you can rename the `blueprint` directory. But make sure you also rename the `name` in the `pyproject.toml` file.
+**To change the main module name**, you can rename the `testpiloteval` directory. But make sure you also rename the `name` in the `pyproject.toml` file.
 
 **You can add project configuration** straightly to the toml file's `[app]` section. You can read it in anywhere in your project by calling the following lines.
 

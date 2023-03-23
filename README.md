@@ -12,8 +12,8 @@ Blueprint uses Poetry for dependency management. If you haven't installed it alr
 2. Clone your new repository to your local computer
 
 ```bash
-git clone git@github.com:thuwarakeshm/blueprint.git
-cd blueprint
+git clone git@github.com:thuwarakeshm/testpiloteval.git
+cd testpiloteval
 ```
 
 3.Install project depenencies.

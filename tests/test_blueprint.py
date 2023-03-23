@@ -1,4 +1,4 @@
-from blueprint import __version__
+from testpiloteval import __version__
 
 
 def test_version():

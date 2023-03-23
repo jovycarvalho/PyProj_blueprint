@@ -1,4 +1,4 @@
-site_name: "Blueprint: A Perfect Python Project Structure"
+site_name: "Testpiloteval: A Perfect Python Project Structure"
 theme:
   name: "material"
   custom_dir: overrides

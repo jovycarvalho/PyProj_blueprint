@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 
 from .secret import print_secret
 
+
 APP_CONFIG = toml.load("pyproject.toml")["app"]
 
 load_dotenv()

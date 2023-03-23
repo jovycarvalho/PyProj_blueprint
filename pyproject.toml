@@ -1,29 +1,33 @@
 [tool.poetry]
-name = "blueprint"
+name = "testpiloteval"
 version = "0.1.0"
 description = ""
 authors = ["thuwarakeshm <thuwarakeshm@stax.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 toml = "^0.10.2"
 python-dotenv = "^0.19.0"
+black = "^23.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-black = "^21.9b0"
+black = "^23"
 pre-commit = "^2.15.0"
 isort = "^5.9.3"
-autoflake = "^1.4"
-mkdocs-material = "^7.3.1"
+autoflake = "^2.0.2"
+mkdocs-material = "^9.1.3"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.1.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-start = "blueprint.main:app"
+start = "testpiloteval.main:app"
 
 [app]
 # all your app configuration go here
-APP_NAME="blueprint"
+APP_NAME="testpiloteval"
